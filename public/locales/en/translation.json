@@ -36,6 +36,22 @@
       "body_other": "You have {{count}} items ready to purchase."
     }
   },
+  "operations": {
+    "title": "Fresh strings for Weblate detection",
+    "intro": "These keys exist only in the English base file for now, so French should show them as untranslated in Weblate.",
+    "sync": {
+      "title": "Catalog sync notice",
+      "body": "Product descriptions are syncing from the merchandising system."
+    },
+    "review": {
+      "title": "Legal review banner",
+      "body": "Terms and conditions are pending approval from the legal team."
+    },
+    "release": {
+      "title": "Launch checklist",
+      "body": "Storefront copy must be approved before the regional rollout starts."
+    }
+  },
   "weblate": {
     "title": "Recommended Weblate component",
     "description": "Use the repository root as the component source and point Weblate at the locale files below.",

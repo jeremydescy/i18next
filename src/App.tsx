@@ -65,6 +65,27 @@ function App() {
         </div>
       </section>
 
+      <section className="sample-panel">
+        <div className="section-heading">
+          <h2>{t('operations.title')}</h2>
+          <p>{t('operations.intro')}</p>
+        </div>
+        <div className="sample-grid">
+          <article>
+            <h3>{t('operations.sync.title')}</h3>
+            <p>{t('operations.sync.body')}</p>
+          </article>
+          <article>
+            <h3>{t('operations.review.title')}</h3>
+            <p>{t('operations.review.body')}</p>
+          </article>
+          <article>
+            <h3>{t('operations.release.title')}</h3>
+            <p>{t('operations.release.body')}</p>
+          </article>
+        </div>
+      </section>
+
       <section className="weblate-panel" id="weblate">
         <div className="section-heading">
           <h2>{t('weblate.title')}</h2>
