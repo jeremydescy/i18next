@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "languageLabel": "French",
+    "languageNative": "Francais"
+  },
+  "hero": {
+    "eyebrow": "Demonstration de localisation continue",
+    "title": "Publiez les textes de l'interface sans faire passer chaque changement par l'equipe technique",
+    "description": "Cette application Vite charge les fichiers JSON de traduction a l'execution avec i18next. Les memes fichiers peuvent etre modifies dans Weblate.",
+    "statusLabel": "Langue active",
+    "statusValue": "{{language}} charge depuis /public/locales",
+    "ctaPrimary": "Ouvrir les fichiers de traduction",
+    "ctaSecondary": "Verifier la configuration Weblate"
+  },
+  "languages": {
+    "title": "Changer de langue",
+    "description": "Un traducteur peut modifier ces libelles dans Weblate et l'application les lira depuis les fichiers JSON.",
+    "en": "Anglais",
+    "fr": "Francais"
+  },
+  "sample": {
+    "title": "Chaines souvent gerees par les traducteurs",
+    "intro": "Chaque bloc ci-dessous correspond a des cles JSON imbriquees que Weblate sait gerer.",
+    "release": {
+      "title": "Banniere de mise en production",
+      "body": "La version {{version}} est prete pour la validation client."
+    },
+    "support": {
+      "title": "Message du support",
+      "body": "Besoin d'aide ? Notre equipe repond en moins de {{hours}} heures ouvrables."
+    },
+    "checkout": {
+      "title": "Message du panier",
+      "body_zero": "Votre panier est encore vide.",
+      "body_one": "Vous avez {{count}} article pret a l'achat.",
+      "body_other": "Vous avez {{count}} articles prets a l'achat."
+    }
+  },
+  "weblate": {
+    "title": "Composant Weblate recommande",
+    "description": "Utilisez la racine du depot comme source du composant et pointez Weblate vers les fichiers de langue ci-dessous.",
+    "repoLabel": "Depot",
+    "repoValue": "Le remote git de ce projet",
+    "maskLabel": "Masque de fichiers",
+    "maskValue": "public/locales/*/translation.json",
+    "baseLabel": "Fichier de langue source",
+    "baseValue": "public/locales/en/translation.json",
+    "formatLabel": "Format",
+    "formatValue": "i18next JSON file v4"
+  }
+}

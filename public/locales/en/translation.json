@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "languageLabel": "English",
+    "languageNative": "English"
+  },
+  "hero": {
+    "eyebrow": "Continuous localization demo",
+    "title": "Ship UI copy without routing every change through engineering",
+    "description": "This Vite app loads translation JSON files at runtime with i18next. The same files can be edited by translators in Weblate.",
+    "statusLabel": "Active locale",
+    "statusValue": "{{language}} loaded from /public/locales",
+    "ctaPrimary": "Open the translation files",
+    "ctaSecondary": "Review Weblate setup"
+  },
+  "languages": {
+    "title": "Switch locale",
+    "description": "A translator can change these labels in Weblate and the app will pick them up from the JSON files.",
+    "en": "English",
+    "fr": "French"
+  },
+  "sample": {
+    "title": "Strings translators usually own",
+    "intro": "Each block below maps to nested JSON keys that Weblate understands.",
+    "release": {
+      "title": "Release banner",
+      "body": "Version {{version}} is ready for customer review."
+    },
+    "support": {
+      "title": "Support notice",
+      "body": "Need help? Reach our team in under {{hours}} business hours."
+    },
+    "checkout": {
+      "title": "Checkout message",
+      "body_zero": "No items in your cart yet.",
+      "body_one": "You have {{count}} item ready to purchase.",
+      "body_other": "You have {{count}} items ready to purchase."
+    }
+  },
+  "weblate": {
+    "title": "Recommended Weblate component",
+    "description": "Use the repository root as the component source and point Weblate at the locale files below.",
+    "repoLabel": "Repository",
+    "repoValue": "This project git remote",
+    "maskLabel": "File mask",
+    "maskValue": "public/locales/*/translation.json",
+    "baseLabel": "Base language file",
+    "baseValue": "public/locales/en/translation.json",
+    "formatLabel": "File format",
+    "formatValue": "i18next JSON file v4"
+  }
+}
